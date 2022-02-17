@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.cardCharter{
+    width: 400px;
+    height: 150px;
+    background-color: rgb(79, 79, 79);
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.imgCharter{
+    
+    height: 150px;
+    width: 100px;
+    background-color: orange;
+
+    border-radius: 10px 0px 0px 10px;
+}
+
+.infCharter{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+}
+h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+.state{
+    display: flex;
+    flex-direction: row;
+}
+
+.unknown{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(189, 191, 190);
+    border-radius: 100%;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+.Alive{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(31, 223, 70);
+    border-radius: 100%;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+.Dead{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(238, 49, 15);
+    border-radius: 100%;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+h5{
+    margin-top: 10px;
+    font-size: 10px;
+    color: lightgray;
+}
+
+p{
+    margin-top: 2px;
+    font-size: 13px;
+}
